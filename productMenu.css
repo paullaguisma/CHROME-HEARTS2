@@ -1,0 +1,56 @@
+body{
+    background-attachment: fixed;
+    height: 300vh;
+}
+
+.topSection{
+    display: flex;
+    justify-content: center;
+}
+
+.logoContainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 13vh;
+    z-index: 2;
+}
+.logoContainer img{
+    height: 100%;
+}
+
+.fullImage{
+    position: absolute;
+    z-index: 1;
+}
+
+.productSection{
+    padding: 300px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.productSection a{
+    transition: 0.3s;
+}
+
+.productSection a:after{
+    background-color: black; 
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 50px 0px;
+    transition: 0.3s;
+    padding: 20px 0px;
+}
+
+.product:hover{
+    background-color: rgba(0, 0, 0, 0.522);
+    color: wheat;
+}

@@ -1,0 +1,67 @@
+.mainContainer{
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    width: 8vw;
+    
+}
+.buttons img {
+    width: 100%;
+    transition: 0.3s;
+}
+.buttons img:hover{
+    opacity: 0.3;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;   
+    flex: 1;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    height: 13vh;
+}
+.logoContainer img{
+    height: 100%;
+    transition: 0.3s;
+}
+.logoContainer img:hover{
+    opacity: 0.5;
+}
+.description{
+    margin-bottom: 4%;
+    font-size: 10px;
+}
+.description a{
+    margin-top: 5%;
+    padding: 5px 20px;
+    text-decoration: none   ;
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.description a:hover{
+    color: black;
+    background-color: beige;
+}
+
+.backButton{
+    height: 5vh;
+    margin-bottom: 20px;
+}
+.backButton img{
+    height: 100%;
+    transition: 0.3s;
+}
+.backButton img:hover{
+    opacity: 0.5;
+}
